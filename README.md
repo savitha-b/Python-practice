@@ -1,2 +1,2 @@
 # Python-practice
-These are codes practied as a part of "Programming Foundations with python" - Udacity
+These are codes practiced as a part of "Programming Foundations with python" - Udacity
