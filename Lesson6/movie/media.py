@@ -5,8 +5,12 @@
 
 #names of classes are generally started with uppercase letters(Google python styleguide)
 class Movie():
+    """This class provides a way to store movie related information"""
+    #triple quotes indicate documentation
+    
     VALID_RATINGS = ["G", "PG","PG-13","R"] #class variable, defined outside of init function
     #valid ratings gives some constant value. so names are generally all caps(Google python styleguide)
+    
     def __init__(self,movie_title, movie_storyline, poster_image, trailer_youtube):
         #2underscores => reserved keyword
         #self is init itself, or the instance being created
