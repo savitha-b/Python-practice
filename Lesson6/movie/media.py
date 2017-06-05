@@ -3,8 +3,9 @@
 #choose which details should be remembered for each movie
 #1. title 2. storyline 3. poster_image 4. youtube_trailer 5. reviews (possibilities)
 
+#names of classes are generally started with uppercase letters(Google python styleguide)
 class Movie():
-    #names of classes are generally started with uppercase letters(Google python styleguide)
+    valid_ratings = ["G", "PG","PG-13","R"] #class variable, defined outside of init function
     def __init__(self,movie_title, movie_storyline, poster_image, trailer_youtube):
         #2underscores => reserved keyword
         #self is init itself, or the instance being created
