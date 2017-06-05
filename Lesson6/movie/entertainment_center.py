@@ -13,11 +13,23 @@ toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 #inputs are added acc to syntax in definition of class.
 #"self" is skipped as it is automatically added in python
-print(toy_story.storyline)
+
+#print(toy_story.storyline)
+#toy_story.show_trailer()
+#toy_story.show_poster()
 
 avatar = media.Movie("Avatar",
                         "A Marine on an alien planet",
                         "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                         "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-print(avatar.storyline)
-avatar.show_trailer()
+#print(avatar.storyline)
+#avatar.show_trailer()
+#avatar.show_poster()
+
+up = media.Movie("Up",
+                        "Story of a young wilderness explorer meets an old man",
+                        "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg",
+                        "https://www.youtube.com/watch?v=pkqzFUhGPJg")
+#print(up.storyline)
+#up.show_trailer()
+#up.show_poster()
