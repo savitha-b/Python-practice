@@ -10,3 +10,16 @@ o/p would be 'RawTurtle auto-creating (scrolled) canvas.\n\n    When a Turtle ob
 
 - Now try to use the same for class Movie.
 put required documentation in triple quotes ni class definition.
+
+- Inheritance
+common traits/attributes that another class can take from another class
+eg:
+class Parent
+attributes - last name, eye color, height etc
+
+class child
+attributes - last name, eye color (these 2 same from above class), number of toys 
+
+=> reuseing code.
+
+
