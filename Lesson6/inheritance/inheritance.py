@@ -9,7 +9,7 @@ class Parent():
 class Child(Parent): #syntax to show child can reuse anything publicly available in class parent
     def __init__(self, last_name, eye_color, number_of_toys):
         print("Child Constructor called")
-        Parent,__init__(self, last_name, eye_color) #inherited variables are initialized from parent's init function
+        Parent.__init__(self, last_name, eye_color) #inherited variables are initialized from parent's init function
         self.number_of_toys = number_of_toys
         
 #test by creating an instance
@@ -18,5 +18,5 @@ class Child(Parent): #syntax to show child can reuse anything publicly available
 
 #instance for class child
 miley_cyrus = Child("Cyrus", "blue",5)
-print(billy_cyrus.last_name)
-print(billy_cyrus.number_of_toys)
+print(miley_cyrus.last_name)
+print(miley_cyrus.number_of_toys)
