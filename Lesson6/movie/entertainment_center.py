@@ -55,7 +55,7 @@ movies = [toy_story, avatar, up, ratatouille, midnight_in_paris, hunger_games]
 #fresh_tomatoes.open_movies_page(movies)
 
 #valid ratings
-print (media.Movie.valid_ratings)
+print (media.Movie.VALID_RATINGS)
 #valid ratings is a list that can be shared among all its instances, eg: toy story, avatar etc. => class variable
 
 
