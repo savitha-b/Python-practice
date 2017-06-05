@@ -15,6 +15,11 @@ class Child(Parent): #syntax to show child can reuse anything publicly available
         print("Child Constructor called")
         Parent.__init__(self, last_name, eye_color) #inherited variables are initialized from parent's init function
         self.number_of_toys = number_of_toys
+
+    def show_info(self):
+        print("Last Name -"+self.last_name)
+        print("Eye Color -"+self.eye_color)
+        print("Number of Toys -"+str(self.number_of_toys))
         
 #test by creating an instance
 billy_cyrus = Parent("Cyrus", "blue")
