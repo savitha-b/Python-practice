@@ -33,3 +33,18 @@ up = media.Movie("Up",
 #print(up.storyline)
 #up.show_trailer()
 #up.show_poster()
+ratatouille = media.Movie("Ratatouille",
+                        "A rat is a chef in Paris",
+                        "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+                        "https://www.youtube.com/watch?v=B7X_RXq0Urw")
+
+midnight_in_paris = media.Movie("Midnight in paris",
+                        "Going back in time to meet authors",
+                        "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
+                        "https://www.youtube.com/watch?v=dtiklALGz20")
+
+hunger_games = media.Movie("Hunger Games",
+                        "A really real real realty game",
+                        "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
+                        "https://www.youtube.com/watch?v=PbA63a7H0bo")
+
