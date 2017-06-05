@@ -3,12 +3,12 @@
 import random
 import string
 def dice_rolling():
-    while True:
+    dice = random.randint(1,6)
+    ans = raw_input('Roll the dice? (Y) / (N) : ')
         roll = input('Roll the dice? Y/N: ')
-        if roll == 'Y'|'y':
-            dice = random.randint(1,6)
-            print("number on the dice is: %d" %(dice))
-        else:
-            break
+    while ans == 'Y':
+        print "number on the dice is: %d" %(dice)
+    else:
+        break
 
 dice_rolling()
