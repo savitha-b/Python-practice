@@ -13,3 +13,9 @@ class Movie():
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
+#define functions to show trailer.
+#instance method => function defined inside a class and associated with a instance
+#avatar.show_trailer() => instance method
+
+    def show_trailer(self):
+        webbrowser.open(self.trailer_youtube_url)
