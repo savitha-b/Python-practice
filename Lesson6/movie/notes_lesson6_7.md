@@ -31,4 +31,8 @@ We may also have another shared class Video() to display duration of the movie /
 i.e. class Movie would inherit from class Video => class Movie(Video) ||| class TvShow
 
 helps inheritance and resue of code also helps to map code easily to human thought process.
+____________
+defined a new function in class parent. show_info.
+this is not explicitly defined / inherited in child class definition but can be used, 
+since it is public in class parent and child inherits all attributes of parent class.
 
