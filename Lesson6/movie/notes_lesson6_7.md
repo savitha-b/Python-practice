@@ -35,4 +35,6 @@ ____________
 defined a new function in class parent. show_info.
 this is not explicitly defined / inherited in child class definition but can be used, 
 since it is public in class parent and child inherits all attributes of parent class.
+_______
+Function/ method override: Defining a function with a same name in child class=> this would be used when called from the child class and not the one from teh parent function.
 
