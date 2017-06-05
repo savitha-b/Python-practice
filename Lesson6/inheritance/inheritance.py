@@ -19,9 +19,10 @@ class Child(Parent): #syntax to show child can reuse anything publicly available
 #test by creating an instance
 billy_cyrus = Parent("Cyrus", "blue")
 #print(billy_cyrus.last_name)
-billy_cyrus.show_info()
+#billy_cyrus.show_info()
 
 #instance for class child
-#miley_cyrus = Child("Cyrus", "blue",5)
+miley_cyrus = Child("Cyrus", "blue",5)
 #print(miley_cyrus.last_name)
 #print(miley_cyrus.number_of_toys)
+miley_cyrus.show_info()
