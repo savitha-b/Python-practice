@@ -44,7 +44,7 @@ midnight_in_paris = media.Movie("Midnight in paris",
                         "https://www.youtube.com/watch?v=dtiklALGz20")
 
 hunger_games = media.Movie("Hunger Games",
-                        "A really real real realty game",
+                        "A really real reality game",
                         "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                         "https://www.youtube.com/watch?v=PbA63a7H0bo")
 
