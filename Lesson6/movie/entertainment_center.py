@@ -1,6 +1,7 @@
 #using the class definition / calling
 
 import media
+import fresh_tomatoes
 
 #toy_story = media.Movie()
 #media is the module/file name ||| turtle, Movie is ||| to Turtle (brad=turtle.Turtle)
@@ -47,4 +48,9 @@ hunger_games = media.Movie("Hunger Games",
                         "A really real reality game",
                         "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                         "https://www.youtube.com/watch?v=PbA63a7H0bo")
+#use fresh tomatoes code
+
+#define array/list for movie instances to use with open movies function
+movies = [toy_story, avatar, up, ratatouille, midnight_in_paris, hunger_games]
+fresh_tomatoes.open_movies_page(movies)
 
