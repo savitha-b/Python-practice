@@ -19,7 +19,16 @@ attributes - last name, eye color, height etc
 
 class child
 attributes - last name, eye color (these 2 same from above class), number of toys 
+=> reusing code.
 
-=> reuseing code.
+___________
+Try to make movie websote code better by inheritance. 
+If we need to add another class such as tv_show, it could inherit details.
+attributes: title, season, episode, tv_station another function get_local_listing
 
+We may also have another shared class Video() to display duration of the movie / tv show 
+(similar to shared class variables)
+i.e. class Movie would inherit from class Video => class Movie(Video) ||| class TvShow
+
+helps inheritance and resue of code also helps to map code easily to human thought process.
 
